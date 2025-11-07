@@ -1,0 +1,9 @@
+package ejercicio1;
+
+public class AutenticacionOAuth implements ServicioAutenticacion {
+    @Override
+    public boolean autenticar(String usuario, String clave) {
+        System.out.println("Autenticando vía OAuth...");
+        return true;
+    }
+}
